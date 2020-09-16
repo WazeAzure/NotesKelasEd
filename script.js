@@ -18,7 +18,7 @@ function UpdateAll(){
   var dead = document.getElementById('deadline').value;
   var desc = document.getElementById('desc').value;
 
-tgs.on('value', show, showError);
+
 
 var contoh = {
     [numb-1] : {
@@ -29,6 +29,8 @@ var contoh = {
 }
 tgs.update(contoh);
 }
+
+tgs.on('value', show, showError);
 
 function show(items){
   var _ul = document.getElementsByTagName('ul')[0];

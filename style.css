@@ -7,4 +7,6 @@ li {
   color: white;
   margin: 1vw;
   background-color: rgba(100,20,130,0.6);
+  border-radius: 5px;
+  box-shadow: 2px 2px 1px rgb(100,100,100);
 }

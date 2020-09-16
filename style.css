@@ -1,0 +1,10 @@
+* {
+  background-color: white;
+}
+li {
+  list-style: none;
+  padding: 10px 20px;
+  color: white;
+  margin: 1vw;
+  background-color: rgba(100,20,130,0.6);
+}
